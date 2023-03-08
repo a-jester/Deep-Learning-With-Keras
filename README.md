@@ -22,5 +22,16 @@ numbers. I am giving it `60,000` handwritten samples from [MNIST](http://yann.le
 ![Defining the Model](images/define-model0.PNG "Model defined")
 
 ## Evaluate the Model
-![Evaluating the Model](images/evaluate-model0.PNG "Model evaluated")
+![Evaluating the Model](images/evaluate-model0.PNG "Model evaluated") \
 The results indicate that the baseline accuracy is `92.33%` on training, `92.32%` on validation, and `92.15%` on the test.
+
+# Improving the Neural Network Sample with Hidden Layers
+
+The initial accuracy is good, but can be improved by adding hidden layers after the input layer. The hidden layer is not connected directly to the input or output. The first hidden layer uses Rectified Linear Unit (ReLU) which returns 0 if the input is negative, otherwise it returns the positive value back. 
+
+## Define the Model with Hidden Layers
+![Defining the Model with Hidden Layers](images/define-model1.PNG "Model defined")
+
+## Evaluate the Model
+![Evaluating the Model with Hidden Layers](images/evaluate-model1.PNG "Model evaluated") \
+With the additional hidden layers, I have improved the accuracy to `96.53%` on training, `96.14%` on validation, and `96.03%` on the test.
