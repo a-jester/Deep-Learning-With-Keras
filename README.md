@@ -35,3 +35,15 @@ The initial accuracy is good, but can be improved by adding hidden layers after 
 ## Evaluate the Model
 ![Evaluating the Model with Hidden Layers](images/evaluate-model1.PNG "Model evaluated") \
 With the additional hidden layers, I have improved the accuracy to `96.53%` on training, `96.14%` on validation, and `96.03%` on the test.
+
+# Further Improving the Neural Network Sample with Dropout
+
+Dropout is another layer I can add to the process that will randomly select and discard neurons increasing the performance
+and alowwing for more epoch. In this test, I increased the epoch to `250`
+
+## Define the Model with Hidden Layers
+![Defining the Model with Hidden Layers](images/define-model2.PNG "Model defined")
+
+## Evaluate the Model
+![Evaluating the Model with Hidden Layers](images/evaluate-model2.PNG "Model evaluated") \
+With the added dropout, I have improved the accuracy to `98.03%` on training, `97.68%` on validation, and `97.89%` on the test.
